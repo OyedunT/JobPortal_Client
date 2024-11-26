@@ -27,6 +27,7 @@ const Home = () => {
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
+  
 
   //   Filter Jobs by title
   const filteredItems = jobs.filter((job) => {
