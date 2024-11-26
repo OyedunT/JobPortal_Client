@@ -54,7 +54,7 @@ const CreateJob = () => {
     //   reset()
     // })
 
-    fetch("http://localhost:5000/api/job/post-job", {
+    fetch("https://jobportal-api-mj29.onrender.com:5000/api/job/post-job", {
       method: "POST",
       body: formData,
     })
