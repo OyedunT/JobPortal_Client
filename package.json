@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://oyedunt.github.io/JobPortal_Client/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
