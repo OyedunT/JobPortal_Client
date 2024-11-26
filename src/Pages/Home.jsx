@@ -14,10 +14,10 @@ const Home = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://jobportal-api-mj29.onrender.com:5000/api/job/all-jobs")
+    fetch("https://jobportal-api-mj29.onrender.com/api/job/all-jobs")
       .then((res) => res.json())
       .then((data) => {
-        //  console.log(data);
+         console.log(data);
         setJobs(data);
         setIsLoading(false);
       });

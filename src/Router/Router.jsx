@@ -31,7 +31,7 @@ import Signup from "../Components/Signup";
         {
           path: "edit-job/:id",
           element: <UpdateJob/>,
-          loader: ({params}) => fetch(`https://jobportal-api-mj29.onrender.com:5000/all-jobs/${params.id}`)
+          loader: ({params}) => fetch(`https://jobportal-api-mj29.onrender.com/all-jobs/${params.id}`)
         },
       ]
     },

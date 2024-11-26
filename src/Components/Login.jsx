@@ -9,7 +9,7 @@ const Login = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post("https://jobportal-api-mj29.onrender.com:5000/api/user/login", {
+      const response = await axios.post("https://jobportal-api-mj29.onrender.com/api/user/login", {
         Email: data.email,  
         Password: data.password,
       });

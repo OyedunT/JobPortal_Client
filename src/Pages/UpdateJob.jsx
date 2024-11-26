@@ -50,7 +50,7 @@ const {_id, jobTitle, companyName, minPrice, maxPrice, salaryType, jobLocation, 
             
 //           }
 // return;
-    fetch(`https://jobportal-api-mj29.onrender.com:5000/update-job/${id}`, {
+    fetch(`https://jobportal-api-mj29.onrender.com/update-job/${id}`, {
       method: "PATCH",
       // headers: {'content-type':'application/json'},
       body: formData

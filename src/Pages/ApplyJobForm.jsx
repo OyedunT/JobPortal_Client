@@ -30,7 +30,7 @@ const ApplyJobForm = () => {
     formData.append("jobId", id); // Append jobId
     // console.log({jobId});return;
 
-    fetch("https://jobportal-api-mj29.onrender.com:5000/api/job/apply-job", {
+    fetch("https://jobportal-api-mj29.onrender.com/api/job/apply-job", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${localStorage.getItem("token")}`, // Token handling
