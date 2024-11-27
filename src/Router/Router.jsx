@@ -10,7 +10,7 @@ import UpdateJob from "../Pages/UpdateJob";
 import Login from "../Components/Login";
 import Signup from "../Components/Signup";
 
-  const router = createBrowserRouter([
+  const routes = createBrowserRouter([
     {
       path: "/",
       element: <App/>,
@@ -44,5 +44,9 @@ import Signup from "../Components/Signup";
       element: <Signup/>
     }
   ]);
+
+  const router = createBrowserRouter(routes, {
+    basename: "/JobPortal_Client", // Set the base URL for GitHub Pages
+  });
 
 export default router;
